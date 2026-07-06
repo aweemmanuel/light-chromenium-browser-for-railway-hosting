@@ -10,7 +10,6 @@ xpra start :100 \
     --bind-tcp=0.0.0.0:${PORT} \
     --html=on \
     --daemon=no \
-    --exit-with-children \
     --start-child="chromium \
         --no-sandbox \
         --disable-dev-shm-usage \
